@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { QuartzPluginData } from "./quartz/plugins/vfile"
 
 /**
  * Quartz 4.0 Configuration
@@ -8,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🔎 Tree Search",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -78,7 +79,7 @@ const config: QuartzConfig = {
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
-      Plugin.FolderPage(),
+      Plugin.FolderPage({sort: sortfn}),
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
@@ -92,3 +93,7 @@ const config: QuartzConfig = {
 }
 
 export default config
+
+function sortfn(f1: QuartzPluginData, f2: QuartzPluginData) {
+  return parseInt(f2.frontmatter?.boost as string) - parseInt(f1.frontmatter?.boost as string)
+}
