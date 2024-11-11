@@ -2,12 +2,17 @@
 - [Reddit Link](https://www.reddit.com/r/ObsidianMD/comments/1frcsuq/tree_search_a_new_obsidian_plugin/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) 
 - [Reddit Link 2](https://www.reddit.com/r/ObsidianMD/comments/1fxi9fj/obsidian_tree_search_050/) 2024-10-06
 - Releases PR: https://github.com/obsidianmd/obsidian-releases/pull/4290 
-- [Documentation](https://catacgc.github.io/obsidian-tree-search/#/)
+- [Old Documentation](https://catacgc.github.io/obsidian-tree-search/#/)
+- [New Documentation](https://catacgc.github.io/tree-search-docs/)
+	- `deno task quartz sync`
+
+
 
 # Tasks
 
 - [ ] bug: obsidian excluded files support
 - [ ] feature: empty page - show 2 of the biggest trees in the vault
+- [ ] feature: search for the smallest connected components in the vault (organizing mode)
 - [ ] bug: empty parent in the relation links a shadow empty node
 - [ ] bug: cmd + click or enter opens a new tab
 - [ ] feature: expand search results to the leafs that match
