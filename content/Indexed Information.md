@@ -1,10 +1,6 @@
-# How it works
-
-This plugin adds another layer to this Obsidian's linking system, namely hierarchical linking of List Nodes & Pages in the vault.
-
 ## Graph Nodes
 
-Even if the plugin is called  , the underlying data structure is a directed graph.
+The underlying data structure for the plugin is a directed graph.
 
 Nodes tracked by this plugin are:
 - All vault notes
@@ -12,8 +8,8 @@ Nodes tracked by this plugin are:
     - Have links to other notes
     - Have links to web pages
     - Have tags
-- All virtual pages (notes that are not in the vault but are linked to)
-- Headers (only if they have List items under them)
+- All virtual pages (notes that are not in the vault but are linked to from other notes)
+- All headers of all levels
 
 | Node                                           | Type         | Description                                                                  |
 | ---------------------------------------------- | ------------ | ---------------------------------------------------------------------------- |
@@ -29,6 +25,7 @@ Nodes tracked by this plugin are:
 
 The plugin track relations between nodes. The relation have the direction implied by the outline:
 - If a Page is under another Page, the first is a child of the second
+- if a Page has `parent` property ( property name configurable in [[Plugin Settings|settings]] )
 - If a List Item is under another List Item, the first is a child of the second
 - If a List Item is under a Header, the first is a child of the Header
 - If a List Item is under a Page, the first is a child of the Page
