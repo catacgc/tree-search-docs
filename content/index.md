@@ -1,12 +1,12 @@
 ---
 title: Welcome to Obsidian Tree Search Plugin
 ---
-Best way to think about Tree Search is a [[Searching|supercharged quick switcher]] with [[backlinks]], [[Searching#Hierarchical Search|hierarchical search]] support and many other [[Features|powerful features]].
+Best way to think about Tree Search is a [[Searching|supercharged quick switcher]] with [[Backlinks|backlinks]], [[Searching#Hierarchical Search|hierarchical search]] support and many other [[Features|powerful features]].
 
 You can see a few of the main capabilities: 
 1. Given a list of files scattered across your vault
 2. And given that these file use a classic outline where parent-child relations can be inferred
-3. The plugin maintains a [[directed graph]] of these [["atoms" of information]]
+3. The plugin maintains a [[Indexed Information#Directed Edges ( Relations )|directed graph]] of these [[Indexed Information#Graph Nodes|"atoms" of information]]
 4. And offers the following capabilities
 	1. [[Searching|Powerful Hierarchical Search Modal]]
 	2. [[Markdown Processor|Inline Markdown Processors]]

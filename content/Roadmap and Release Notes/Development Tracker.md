@@ -4,15 +4,16 @@
 - Releases PR: https://github.com/obsidianmd/obsidian-releases/pull/4290 
 - [Old Documentation](https://catacgc.github.io/obsidian-tree-search/#/)
 - [New Documentation](https://catacgc.github.io/tree-search-docs/)
-	- `deno task quartz sync`
+	- `deno task quartz sync` #snippet
 
 
-
-# Tasks
+# Tasks and checklist
 
 - [ ] bug: obsidian excluded files support
 - [ ] feature: empty page - show 2 of the biggest trees in the vault
 - [ ] feature: search for the smallest connected components in the vault (organizing mode)
+- [ ] feature: open mode new tab only if the same tab is not opened already
+- [ ] feature: snippet mode - copy the snippet
 - [ ] bug: empty parent in the relation links a shadow empty node
 - [ ] bug: cmd + click or enter opens a new tab
 - [ ] feature: expand search results to the leafs that match
