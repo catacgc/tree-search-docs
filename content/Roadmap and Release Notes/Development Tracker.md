@@ -6,9 +6,14 @@
 - [New Documentation](https://catacgc.github.io/tree-search-docs/)
 	- `deno task quartz sync` #snippet
 
-
 # Tasks and checklist
 
+next
+- [ ] add changelog and docs link in settings
+- [ ] docs: interface docs
+- [ ] add keyboard info bottom at the search bar
+
+backlog
 - [ ] bug: obsidian excluded files support
 - [ ] feature: empty page - show 2 of the biggest trees in the vault
 - [ ] feature: search for the smallest connected components in the vault (organizing mode)
@@ -17,7 +22,6 @@
 - [ ] bug: empty parent in the relation links a shadow empty node
 - [ ] bug: cmd + click or enter opens a new tab
 - [ ] feature: expand search results to the leafs that match
-- [ ] docs: interface docs
 - [ ] feature: related notes that are backlinks 
 - [ ] feature: copy link (via [Obsidian Advanced URI](obsidian://advanced-uri?filepath=Development Tracker&line=10&openmode=tab))
 - [ ] feature: [[folders support]]
@@ -28,7 +32,7 @@
 	- [ ] improvement: in the Context page, show (10?) open tasks as a first class citizen; sort children by headers, files and leafs
 - [ ] feature: show preview of image embeds in search results
 - [ ] bug: add test for removing an entire page
-- [ ] bug: disambiguate between full links and references (e.g Work/Himalaya vs Himalaya)
+- [ ] bug: disambiguate between full links and references (e.g Work/Project vs Project)
 - [ ] add query modifiers :task, :page
 - [ ] click trough: add headers and aliases automatically for pages when they don't exist
 - [ ] add support to show archived items when there is no result

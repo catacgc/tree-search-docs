@@ -1,5 +1,20 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { FileNode, Options } from "./quartz/components/ExplorerNode"
+import { QuartzPluginData } from "./quartz/plugins/vfile"
+
+const filter: Options['filterFn'] = (node) => {
+  // exclude files with the tag "explorerexclude"
+  // return node.file != undefined
+  return true
+}
+
+const sort: Options['sortFn'] = (a, b) => {
+  const b1 = a.file?.frontmatter?.boost as number
+  const b2 = b.file?.frontmatter?.boost as number
+  // exclude files with the tag "explorerexclude"
+  return b1  - b2
+}
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
