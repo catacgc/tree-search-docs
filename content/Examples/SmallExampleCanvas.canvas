@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"cfe5cd97f342ce4f","type":"file","file":"content/Examples/SmallExample.md","subpath":"#a daily note","x":-520,"y":-620,"width":400,"height":200},
+		{"id":"cd0336e7da1125a4","type":"file","file":"content/Examples/SmallExample.md","subpath":"#a map of content","x":-520,"y":-380,"width":400,"height":200},
+		{"id":"2afcc200e3aeff9d","type":"file","file":"content/Examples/SmallExample.md","subpath":"#fast search, switcher and launcher","x":-40,"y":-580,"width":700,"height":360}
+	],
+	"edges":[
+		{"id":"3aebdae282873f90","fromNode":"cfe5cd97f342ce4f","fromSide":"right","toNode":"2afcc200e3aeff9d","toSide":"left"},
+		{"id":"7646a2ac6b3a1f75","fromNode":"cd0336e7da1125a4","fromSide":"right","toNode":"2afcc200e3aeff9d","toSide":"left"}
+	]
+}

@@ -1,10 +1,15 @@
 Search is the must powerful feature of this plugin. 
 
-You [[Plugin Settings|can open a Search modal]] (Tree Search: Search) to find notes, headers, links and tagged lines that are nested under it.
+You [[Plugin Settings|can open a Search modal]] (Tree Search: Search) to find and open notes, headers, links and tagged lines that are nested under it.
 
 This makes retrieval of [[Indexed Information|atoms of information]] (notes, tasks, tags, headers, and web links) very fast and contextual.
 
 ![[Pasted image 20241110123532.png]]
+## Shortcuts and Navigation
+- ***Up, Down*** -> Up and down arrows move the selection 
+- ***Enter*** -> Open the selected file
+- ***Shift + Enter*** -> Highlight the source of a relation
+
 ## Hierarchical Search
 
 For large vault, efficient information retrieval typically needs a lot of structure. This is one of the main points that this plugin tries to address. It easy for to humans to narrow patterns of retrieval. Instead of **"what is the name of that documentation generator library"** it is much faster to ask yourself **"maybe documentation under software development ?"** and then narrow down further. 
@@ -18,13 +23,6 @@ A somewhat synthetic example from this example vault:
 This syntax (terms split by the [[Plugin Settings|search separator]] ".") tells the search engine that it should find all graph nodes that contain `root` that have a directed path towards nodes that contain `doc` 
 
 The [[Indexed Information#Directed Edges ( Relations )|hierarchy]] can be built organically. No need to rush or refactor your entire vault. You simply by adding some outline to existing notes and relations or using the [[Plugin Settings#Settings|parent frontmatter]] property to hint towards a parent. 
-
-## Shortcuts and Navigation
-
-Up and won arrows move the selection 
-
-- Enter -> Open the selected file
-- Shift + Enter -> highlight the source of a relation
 
 ## Smart Search
 
