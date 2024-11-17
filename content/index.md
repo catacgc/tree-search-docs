@@ -7,17 +7,15 @@ Best way to think about Tree Search is a [[Searching|supercharged quick switcher
 
 
 ## Install
+
+- Install from Obsidian Community Plugins - Tree Search
+- Make sure you have Dataview installed
+#### Beta Version
 - Install BRAT plugin from the Obsidian Community Plugins
 - With Brat, install the TreeSearch plugin by adding a beta plugin with the following URL: https://github.com/catacgc/obsidian-tree-search
-- Make sure you have Dataview installed
-
-## Playground
-
-> [!tip] Play with it
-> The screenshot above is taken from the [Canvas](Canvas.md) found in the `TreeSearch/Docs/Examples` folder in this repo. This is a vault that you can load yourself and play with it to test these capabilities. 
 
 
-## Detailed Screenshot
+## Detailed Functionality
 
 You can see a few of the main capabilities in the following screenshot: 
 1. Given a list of files scattered across your vault
@@ -29,3 +27,9 @@ You can see a few of the main capabilities in the following screenshot:
 	3. [[File Context|Dynamic File Context Pane]]
 
 ![[screenshot.png]]
+
+## Playground
+
+> [!tip] Play with it
+> The screenshot above is taken from the [Canvas](Canvas.md) found in the `TreeSearch/Docs/Examples` folder in this repo. This is a vault that you can load yourself and play with it to test these capabilities. 
+
