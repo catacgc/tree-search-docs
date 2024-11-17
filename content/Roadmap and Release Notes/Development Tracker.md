@@ -37,3 +37,21 @@ backlog
 - [ ] click trough: add headers and aliases automatically for pages when they don't exist
 - [ ] add support to show archived items when there is no result
 - [ ] add support for tags and tags hierarchy
+
+## How to Build and Release
+#### Dev
+```
+# build
+npm run dev
+```
+
+You will need the excellent [hot reload plugin](https://github.com/pjeby/hot-reload) installed if you want your changes to reflect automatically
+#### Docs
+
+```
+# build and preview
+deno task quartz build --serve
+
+# publish latest version
+deno task quartz sync 
+```

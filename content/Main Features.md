@@ -2,3 +2,4 @@
 - [[Markdown Processor|Inline Markdown Processors]]
 - [[File Context|Dynamic File Context Pane]]
 - [[Markdown Processor|Automatic Maps Of Content]]
+- [[File Context#In-Context Task Indexing|Contextual Task Tracker]]

@@ -1,3 +1,4 @@
+- Used in [[content/Examples/SmallExampleCanvas.canvas|SmallExampleCanvas]]
 # a daily note
 
 - [[Obsidian Plugins]]
