@@ -1,3 +1,4 @@
--  [[Searching|Powerful Hierarchical Search Modal]]
--  [[Markdown Processor|Inline Markdown Processors]]
--  [[File Context|Dynamic File Context Pane]]
+- [[Searching|Powerful Hierarchical Search Modal]]
+- [[Markdown Processor|Inline Markdown Processors]]
+- [[File Context|Dynamic File Context Pane]]
+- [[Markdown Processor|Automatic Maps Of Content]]

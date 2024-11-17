@@ -1,3 +1,7 @@
+---
+aliases:
+  - Maps of Content
+---
 The full schema for the markdown processor:
 
 	```tree-context
@@ -9,8 +13,10 @@ It will show all children for the `[[Root]]` file with a default display of `dep
 
 ![[Pasted image 20241111105202.png|400]]
 
-## Search mode
-You can always click on the header line ( Root Children above ) and show the search bar that allows for further narrow down of the children or expand / minimize the number of children displayed. 
+## Search / dial-in mode
+You can always click on the header line ( Root Children above ) and show the search bar that allows for further narrowing down of the children or expand / minimize the number of children displayed. 
+
+![[Pasted image 20241117203423.png|400]]
 ## Default file and header mode
 
 If you leave out the file context and drop just:

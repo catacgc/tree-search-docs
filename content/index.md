@@ -3,9 +3,8 @@ title: Welcome to Obsidian Tree Search Plugin
 ---
 Best way to think about Tree Search is a [[Searching|supercharged quick switcher]] with [[Backlinks|backlinks]], [[Searching#Hierarchical Search|hierarchical search]] support and many other [[Main Features|powerful features]].
 
+## In a nutshell: 
 ![[Pasted image 20241117192150.png]]
-
-
 ## Install
 
 - Install from Obsidian Community Plugins - Tree Search
