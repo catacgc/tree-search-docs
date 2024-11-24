@@ -17,7 +17,7 @@ Nodes tracked by this plugin are:
 | `[[Projects]]`                                 | Virtual Page | Whenever the page does not exist in the vault, but there's still a reference |
 | [Quartz is amazing](https://quartz.jzhao.xyz/) | List Item    | All vault lines that contain a URL                                           |
 | A tagged line #note                            | List Item    | All vault lines that contain a tag                                           |
-| - `[[Joe]] meeting notes`                      | List Item    | All vault lines that contain a Vault                                         |
+| - `[[Joe]] meeting notes`                      | List Item    | All vault lines that contain a Obsidian Reference                            |
 | `## Header`                                    | Header       | A header in a note, if it has List Item children                             |
 | `- [ ] Task`                                   | Task         | A task in a note                                                             |
 
