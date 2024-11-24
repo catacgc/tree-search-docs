@@ -40,5 +40,6 @@ Invoking ⌘ + K opens up the command menu. The default one will be contextually
 
 To build raycast from source:
 - Clone the repo https://github.com/catacgc/obsidian-tree-search
+- `cd raycast`
 - `npm install`
 - `npm run dev`
