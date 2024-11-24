@@ -9,3 +9,9 @@ Invoke the `Cmd + P` panel
 
 ## Settings
 ![[settings.png]]
+
+### Socket Path
+
+![[Pasted image 20241124153627.png]]
+
+Used for the [[Raycast Extension]] , it is a readonly value you use when [[Raycast Extension#Configuring|configure]] the extension. Copy and paste it in the Raycast Prompt

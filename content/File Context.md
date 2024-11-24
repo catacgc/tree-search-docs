@@ -1,5 +1,6 @@
-You can [[Plugin Settings|assign a key]] or use the command panel top open the File Context.
-It shows all the current parents, children, tasks and backlinks for the focused file in the vault.
+You can [[Plugin Settings|assign a key]] or use the command panel top open the **File Context**.
+
+It is a pane that shows parents, children, tasks and backlinks for the currently focused file in the vault.
 
 The Pin button allows you to keep the context unchanged while you navigate the vault 
 (useful for organizing notes).
