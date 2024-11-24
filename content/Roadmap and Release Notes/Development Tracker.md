@@ -1,10 +1,6 @@
-## Reddit
+## Demos
 - [Reddit Link](https://www.reddit.com/r/ObsidianMD/comments/1frcsuq/tree_search_a_new_obsidian_plugin/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) 
 - [Reddit Link 2](https://www.reddit.com/r/ObsidianMD/comments/1fxi9fj/obsidian_tree_search_050/) 2024-10-06
-- Releases PR: https://github.com/obsidianmd/obsidian-releases/pull/4290 
-- [Old Documentation](https://catacgc.github.io/obsidian-tree-search/#/)
-- [New Documentation](https://catacgc.github.io/tree-search-docs/)
-	- `deno task quartz sync` #snippet
 
 # Tasks and checklist
 
