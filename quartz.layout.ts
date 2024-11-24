@@ -24,7 +24,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "Tree Search Repo": "https://github.com/catacgc/obsidian-tree-search",
-      "Tree Search Docs": "https://catacgc.github.io/tree-search-docs/",
+      "Tree Search Docs": "https://github.com/catacgc/tree-search-docs",
       "Quartz Docs": "https://github.com/jackyzha0/quartz"
     },
   }),

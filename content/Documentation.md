@@ -8,4 +8,4 @@ These docs are built with quartz
 
 ## Editing in Obsidian
 
-Open the preconfigured `obisidian-vault` folder in these docs to edit and see changes live in Obsidian.
+Open the preconfigured `obisidian-vault` folder in [these docs](https://github.com/catacgc/tree-search-docs) to edit and see changes live in Obsidian.
