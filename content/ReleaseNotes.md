@@ -1,3 +1,8 @@
+## 0.9.6 - 2024-11-28
+
+- fix: mobile dataview load detection
+- fix: raycast socket only on Mac platform
+
 ## 0.9.4 - 2024-11-24
 
 ### Raycast extension - alpha release
