@@ -14,6 +14,10 @@ Invoking for the first time the extension in Raycast, will ask for the socket pa
 
 ![[Pasted image 20241124154141.png|400]]
 
+
+### Multiple Vault Support
+
+You can support multiple vaults by adding a comma separated list of vault sockets. Example: `/tmp/raycast-Primary Vault.sock,/tmp/raycast-Secondary Vault.sock`. Currently, the results are going to be show in the order of the vault socket paths. In this example, matches from the `Primary Vault` followed by results from the `Secondary Vault`
 ## Using the extension
 
 Take this sample file in my vault:
@@ -34,6 +38,12 @@ Invoking ⌘ + K opens up the command menu. The default one will be contextually
 | URL - Open with default Browser                  | ![[Pasted image 20241124160624.png\|400]] |
 | Snippet - Copy Snippet                           | ![[Pasted image 20241124160647.png\|400]] |
 
+### Default Shotcuts
+
+For each results from the result, besides the dynamic actions above there are two default shortcuts:
+
+- **Cmd + C** - copies the entire row
+- **Shift + Enter** - open the line where that nodes was recorded in the vault
 
 
 ## Building From Source
