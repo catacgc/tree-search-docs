@@ -1,5 +1,6 @@
 
-## 0.9.7 - 2024-12-14
+## 0.9.7
+2024-12-14
 
 #### Raycast (beta)
 - feat: add support for multiple vaults in the [[Raycast Extension#Multiple Vault Support]]
@@ -11,7 +12,8 @@
 	- ![[Pasted image 20241214092529.png]]
 - improvement: add support for Obisidian excluded folders
 
-## 0.9.6 - 2024-11-28
+## 0.9.6
+2024-11-28
 
 - fix: mobile dataview load detection
 - fix: raycast socket only on Mac platform
