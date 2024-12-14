@@ -1,3 +1,16 @@
+
+## 0.9.7 - 2024-12-02
+
+#### Raycast
+- feat: add support for multiple vaults in the [[Raycast Extension#Multiple Vault Support]]
+- feat: add support for multiple element commands [[Raycast Extension#Multiple Elements]]
+		![[Pasted image 20241210102012.png|500]]
+- feat: add default Copy and See in Obsidian commands [[Raycast Extension#Default Shortcuts]] with dedicated shortcuts
+#### Obsidian
+- feat: add instruction on desktop 
+	- `insert screenshot`
+- improvement: add support for Obisidian excluded folders
+
 ## 0.9.6 - 2024-11-28
 
 - fix: mobile dataview load detection
