@@ -2,9 +2,12 @@ Backlinks are what everyone is familiar with in Obsidian. If I add a note here t
 
 But there are other natural relations you can create between notes. What if we add an outline like the following:
 
+```
+
 - [[Skills]]
 	- [[Learn]]
 		- [[Articles]]
+```
 
 By default Obsidian doesn't give any special treatment to all these backlinks. But there is an inferred relation here in this structure: [[Skills]] / [[Learn]] / [[Articles]].
 
@@ -14,7 +17,10 @@ Where it shines though is in the organic nature of building this structure as yo
 
 Suppose that now we find a new article that you want to bookmark, an article about connected thinking. You can simply note:
 
+```
 - [[Connected Thinking]] http://article in [[Articles]]
+```
+
 
 This note can exist wherever it feels more natural: a daily note, an inbox note or in the [[Articles]] note itself. Tree search will index it and made it available.
 

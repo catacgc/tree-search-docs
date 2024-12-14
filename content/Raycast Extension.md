@@ -2,8 +2,14 @@
 The extension mirrors the exact same [[Searching|search]] and quick launching functionality as the [[index|Tree Search]] plugin and requires the plugin to be installed into Obsidian. 
 
 ## Installing
+
 > [!WARN] Raycast Extension Unreleased
-> For now you need to build the extension from source, which is very easy: run `npm install` and `npm run build`
+> For now you need to build the extension from [source](https://github.com/catacgc/obsidian-tree-search-raycast), which is very easy: 
+> ```
+> git clone https://github.com/catacgc/obsidian-tree-search-raycast
+> npm install
+> npm run build
+> ```
       
 ## Configuring
 
@@ -37,7 +43,15 @@ Invoking ⌘ + K opens up the command menu. The default one will be contextually
 | Snippet - Copy Snippet                           | ![[Pasted image 20241124160647.png\|400]] |
 
 ## Multiple Elements 
+
 A single indexed line can have multiple elements: multiple vault pages, multiple links, multiple snippets. In that case, the extension will add multiple Quick Commands for each element. You can access the Quick Command menu using Cmd + K
+
+For example, the following note:
+
+```obsidian
+- [[Raycast]]
+	- The [[Raycast Extension]] is a great way to use the [[Tree Search Plugin]]. Install it manually running `npm run dev`
+```
 
 ![[Pasted image 20241210102012.png|500]]
 
