@@ -4,7 +4,7 @@ These docs are built with quartz
 
 ## Task List
 - `deno task quartz build --serve` #snippet to build and edit live
-- `deno task quartz sync` #snippet to push
+- `deno task quartz sync` #snippet to push #test
 
 ## Editing in Obsidian
 

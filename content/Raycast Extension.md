@@ -1,14 +1,14 @@
 
 The extension mirrors the exact same [[Searching|search]] and quick launching functionality as the [[index|Tree Search]] plugin and requires the plugin to be installed into Obsidian. 
-
 ## Installing
 
 > [!WARN] Raycast Extension Unreleased
-> For now you need to build the extension from [source](https://github.com/catacgc/obsidian-tree-search-raycast), which is very easy: 
+> For now you need to build the extension from [source](https://github.com/catacgc/obsidian-tree-search-raycast), which is relatively easy: 
 > ```
 > git clone https://github.com/catacgc/obsidian-tree-search-raycast
+> cd obsidian-tree-search-raycast
 > npm install
-> npm run build
+> npm run dev
 > ```
       
 ## Configuring

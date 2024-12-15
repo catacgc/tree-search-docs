@@ -3,16 +3,8 @@
 - [Reddit Link 2](https://www.reddit.com/r/ObsidianMD/comments/1fxi9fj/obsidian_tree_search_050/) 2024-10-06
 
 [[ReleaseNotes]]
+# Backlog
 
-# Tasks and checklist
-
-next
-- [ ] add changelog and docs link in settings
-- [ ] docs: interface docs
-- [ ] add keyboard info bottom at the search bar
-
-backlog
-- [ ] bug: obsidian excluded files support
 - [ ] feature: empty page - show 2 of the biggest trees in the vault
 - [ ] feature: search for the smallest connected components in the vault (organizing mode)
 - [ ] feature: open mode new tab only if the same tab is not opened already
@@ -21,7 +13,7 @@ backlog
 - [ ] bug: cmd + click or enter opens a new tab
 - [ ] feature: expand search results to the leafs that match
 - [ ] feature: related notes that are backlinks 
-- [ ] feature: copy link (via [Obsidian Advanced URI](obsidian://advanced-uri?filepath=Development Tracker&line=10&openmode=tab))
+- [ ] feature: copy link to line
 - [ ] feature: [[folders support]]
 	- [ ] feature: reorder in various folders via [drag and drop](https://react-dnd.github.io/react-dnd/about) 
 - [ ] feature: [[discovery callout]]
@@ -35,6 +27,11 @@ backlog
 - [ ] click trough: add headers and aliases automatically for pages when they don't exist
 - [ ] add support to show archived items when there is no result
 - [ ] add support for tags and tags hierarchy
+
+- [x] bug: obsidian excluded files support
+- [x] add changelog and docs link in settings
+- [x] docs: interface docs
+- [x] add keyboard info bottom at the search bar
 
 ## How to Build and Release
 #### Dev

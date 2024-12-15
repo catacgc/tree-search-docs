@@ -20,3 +20,4 @@ This is very nice to always see the relevant tasks for a given context.
 You can click on the tasks (as with any other link) and highlight where that task was created, complete it, change it, etc:
 
 ![[Pasted image 20241117210009.png|300]]
+
