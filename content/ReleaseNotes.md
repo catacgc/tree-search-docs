@@ -1,3 +1,7 @@
+## 0.9.81
+2024-12-15
+- fix: ios mobile app detection fix
+
 ## 0.9.8
 2024-12-15
 - perf: handle raycast heap limits
