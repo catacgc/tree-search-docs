@@ -1,3 +1,12 @@
+## 0.10.0
+2025-02-01
+- perf: faster and simpler search
+- feat: insert after selected line (works in raycast as well) with `Ctrl + i`
+- fix: align shortcuts between raycast and obsidian (`Ctrl + C` to copy entry)
+- perf: replace the entire state mechanic for simpler and faster UI rendering
+- ux: instructions on desktop ![[Pasted image 20250202200220.png]]
+- ux: show number of nodes in file context
+- ![[Pasted image 20250202200332.png]]
 ## 0.9.81
 2024-12-15
 - fix: ios mobile app detection fix
