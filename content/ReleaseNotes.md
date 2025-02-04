@@ -1,3 +1,6 @@
+## 0.10.1
+- fix: windows support ( probably )
+
 ## 0.10.0
 2025-02-01
 - perf: faster and simpler search

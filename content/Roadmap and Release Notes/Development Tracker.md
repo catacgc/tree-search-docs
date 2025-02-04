@@ -8,7 +8,7 @@
 - [ ] feature: empty page - show 2 of the biggest trees in the vault
 - [ ] feature: search for the smallest connected components in the vault (organizing mode)
 - [ ] feature: open mode new tab only if the same tab is not opened already
-- [ ] feature: snippet mode - copy the snippet
+- [ ] feature: snippet mode - copy the snippet (already done in raycast)
 - [ ] bug: empty parent in the relation links a shadow empty node
 - [ ] bug: cmd + click or enter opens a new tab
 - [ ] feature: expand search results to the leafs that match
@@ -19,7 +19,7 @@
 - [ ] feature: [[discovery callout]]
 	- [ ] feature: files with no parent discovery [[organise view]]
 - [ ] feature: add default sorting capability
-	- [ ] improvement: in the Context page, show (10?) open tasks as a first class citizen; sort children by headers, files and leafs
+	- [x] improvement: in the Context page, show (10?) open tasks as a first class citizen; sort children by headers, files and leafs
 - [ ] feature: show preview of image embeds in search results
 - [ ] bug: add test for removing an entire page
 - [ ] bug: disambiguate between full links and references (e.g Work/Project vs Project)
