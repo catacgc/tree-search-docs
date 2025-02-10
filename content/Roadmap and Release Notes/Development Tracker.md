@@ -1,3 +1,7 @@
+---
+parent:
+  - "[[index]]"
+---
 ## Demos
 - [Reddit Link](https://www.reddit.com/r/ObsidianMD/comments/1frcsuq/tree_search_a_new_obsidian_plugin/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) 
 - [Reddit Link 2](https://www.reddit.com/r/ObsidianMD/comments/1fxi9fj/obsidian_tree_search_050/) 2024-10-06
@@ -8,6 +12,7 @@
 - [ ] feature: empty page - show 2 of the biggest trees in the vault
 - [ ] feature: search for the smallest connected components in the vault (organizing mode)
 - [ ] feature: open mode new tab only if the same tab is not opened already
+- [x] feature: add an :emoji search to lookup only the leaves that have an emoji (any :emoji)
 - [ ] feature: snippet mode - copy the snippet (already done in raycast)
 - [ ] bug: empty parent in the relation links a shadow empty node
 - [ ] bug: cmd + click or enter opens a new tab

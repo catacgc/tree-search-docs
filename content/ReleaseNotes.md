@@ -1,3 +1,15 @@
+---
+parent:
+  - "[[index]]"
+---
+
+## 0.11.0
+2025-03-09
+- feat: find lines that contains :emoji [[Searching#Search Operators]] 
+- fix: styling on inline markdown context
+- feat: inline context now supports an initial query [[Markdown Processor#Query Mode]]
+- feat: `:page` and `:header` [[Searching#Search Operators|search operators]]  and a big set of other [[Searching#Search Operators and Examples|search capabilities]]
+
 ## 0.10.1
 - fix: windows support ( probably )
 

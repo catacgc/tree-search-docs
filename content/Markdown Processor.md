@@ -4,10 +4,11 @@ aliases:
 ---
 The full schema for the markdown processor:
 
-	```tree-context
-	file: "[[Root]]" # default=current file and heading; always use double quotes for valid yaml
-	depth: 5             # default=1; depth at which the results will be shown
-	```
+```tree-context
+file: "[[Root]]"     # default=current file and heading; always use double quotes for valid yaml
+depth: 5             # default=1; depth at which the results will be shown
+query: ""            # optional
+```
 
 It will show all children for the `[[Root]]` file with a default display of `depth=5`. Visual below:
 
@@ -27,3 +28,21 @@ If you leave out the file context and drop just:
 in a file, there two simple rules that will take effect:
 - if the file is under a heading, then it will show the children of that `[[file#heading]]` onwards
 - otherwise it will show all children of the current `[[file]]`
+
+## Query Mode
+
+	```tree-context
+	query: ':emoji'
+	```
+
+Will render
+
+![[Pasted image 20250210064427.png]]
+
+
+	```tree-context
+	query: ':page | :header'
+	depth: 0
+	```
+
+Will render all [[Searching#Search Operators|pages and headers]] in your vault, grouped in a tree

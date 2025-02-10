@@ -1,3 +1,3 @@
-- [Quartz](https://quartz.jzhao.xyz/)
+- [Quartz](https://quartz.jzhao.xyz/) 🪴
 	- [Render Exaclidraw In Quartz](https://github.com/jackyzha0/quartz/pull/1389)
 - [Docsify](https://docsify.js.org/#/)
